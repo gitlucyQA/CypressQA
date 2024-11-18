@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run spec",
-    "cypress:open": "cypress open",
-    "npm run cypress":"run npm run cypress"
+    "test": "npx cypress run"
+  
   },
   "author": "gitlucyQA",
   "license": "ISC",
