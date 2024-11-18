@@ -1,11 +1,14 @@
 
 describe ("test suite ecommerce",()=>{
-            
-    beforeEach("ingresar al home",()=>{
-      cy.visit("https://www.emcali.com.co/")
-      cy.url().should("contain", "emcali")
-    }) 
-      //inicio de sesión usuario no registrado
+
+      //visitando el home de la pagina
+         it("home",()=>  {    
+          cy.visit("https://www.emcali.com.co/")
+          
+        }) 
+        
+ 
+      //inicio de sesión incorrecto usuario no registrado
       
     
        it("ingresar usuario",()=> {
